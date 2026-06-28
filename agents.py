@@ -129,3 +129,16 @@ Draft response: "{draft_response}"
 
     response = llm.invoke(prompt)
     return response.content.strip()
+# ---------- Task 7 FIX: Memory Intent Detection ----------
+
+def is_memory_query(query: str) -> bool:
+    """
+    Detects if user is asking for past conversation history.
+    """
+    memory_keywords = [
+        "previous", "earlier", "before", "last issue",
+        "my issue", "what was my issue", "history"
+    ]
+
+    q = query.lower()
+    return any(k in q for k in memory_keywords)

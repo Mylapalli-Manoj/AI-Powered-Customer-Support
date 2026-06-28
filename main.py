@@ -22,23 +22,23 @@ console = Console()
 # The 5 sample queries from the assignment
 DEMO_QUERIES = [
     {
-        "customer_name": "Alice",
+        "customer_name": "Manoj",
         "query": "What are the pricing plans available for your software?"
     },
     {
-        "customer_name": "Bob",
+        "customer_name": "Ravi",
         "query": "I forgot my account password."
     },
     {
-        "customer_name": "Carol",
+        "customer_name": "Arun",
         "query": "My application crashes whenever I upload a file."
     },
     {
-        "customer_name": "David",
+        "customer_name": "Mahesh",
         "query": "I need a refund for my annual subscription."
     },
     {
-        "customer_name": "David",
+        "customer_name": "Mahesh",
         "query": "What was my previous support issue?"
     },
 ]
@@ -46,7 +46,7 @@ DEMO_QUERIES = [
 
 def run_demo():
 
-    console.rule("[bold blue]ABC Technologies - AI Customer Support Automation[/bold blue]")
+    console.rule("[bold blue]ABC Technologies - AI Customer Support [/bold blue]")
 
     console.print("[bold green]Initializing SQLite Database...[/bold green]")
 
@@ -114,14 +114,26 @@ def run_demo():
             str(result["approval_status"])
         )
 
+        memory_status = (
+            "Retrieved"
+            if result.get("memory_context")
+            else "Not Used"
+        )
+
+        rag_status = (
+            "Retrieved"
+            if result.get("retrieved_context")
+            else "Not Used"
+        )
+
         workflow.add_row(
             "[green]Memory[/green]",
-            "Retrieved"
+            memory_status
         )
 
         workflow.add_row(
             "[green]RAG[/green]",
-            "Retrieved"
+            rag_status
         )
 
         console.print(
