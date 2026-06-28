@@ -1,0 +1,31 @@
+ABC Technologies - Technical Manual
+
+System Requirements:
+The application requires Windows 10 or later, macOS 11 or later, minimum 4GB RAM, and a stable internet connection. Insufficient system resources may lead to installation failures or performance issues.
+
+Installation Issues:
+If installation fails, ensure the system meets minimum requirements and that sufficient storage space is available. Running the installer as administrator may resolve permission-related issues.
+
+Application Crashes During File Upload:
+This issue is commonly caused by:
+- File size exceeding the 50MB limit
+- Unsupported file formats
+
+Supported formats include: PDF, DOCX, XLSX, CSV, and PNG.
+
+Recommended fixes:
+- Reduce file size below 50MB
+- Convert file to supported format
+- Clear application cache
+- Restart the application
+
+If the issue persists, collect error logs and contact Technical Support.
+
+Login Problems:
+If a customer cannot log in, verify the email address and ensure the account is active. Use the "Forgot Password" option to reset credentials. Password reset links are valid for 24 hours.
+
+Configuration Issues:
+Configuration problems usually occur due to incorrect API keys or expired integrations. Check settings under Account > Integrations and ensure all credentials are valid and active.
+
+Performance Issues:
+Slow performance may occur due to low system memory, high CPU usage, or unstable network connections. Closing background applications can improve performance.

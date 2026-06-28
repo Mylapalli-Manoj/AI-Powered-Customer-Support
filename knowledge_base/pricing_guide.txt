@@ -1,0 +1,23 @@
+ABC Technologies - Pricing Guide
+
+Subscription Plans:
+
+1. Starter Plan - $19/month
+   - Up to 5 users
+   - Basic reporting
+   - Email support
+
+2. Professional Plan - $49/month
+   - Up to 20 users
+   - Advanced reporting and analytics
+   - Priority email and chat support
+
+3. Enterprise Plan - $99/month
+   - Unlimited users
+   - Custom integrations
+   - Dedicated account manager
+   - 24/7 phone support
+
+Annual subscriptions receive a 15% discount compared to monthly billing.
+
+All plans include a 14-day free trial. No credit card is required to start the trial.
