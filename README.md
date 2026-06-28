@@ -55,9 +55,10 @@ ai-customer-support-automation/
 ## Setup Instructions
 
 ### 1. Clone the repository
+
 ```bash
-git clone https://github.com/GraceCoder25/ai-customer-support-automation.git
-cd ai-customer-support-automation
+git clone https://github.com/Mylapalli-Manoj/AI-Powered-Customer-Support.git
+cd AI-Powered-Customer-Support
 ```
 
 ### 2. Create and activate a virtual environment
@@ -101,6 +102,6 @@ Type `yes` or `no` and press Enter to continue.
 
 ## Author
 
-Built by GraceCoder25 as part of the IBM VIT Agentic AI course (May 2026 batch).
+Built by Mylapalli Manoj as part of the IBM VIT Agentic AI course (May 2026 batch).
 
 

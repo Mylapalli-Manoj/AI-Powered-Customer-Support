@@ -2,7 +2,7 @@
 ## AI-Powered Customer Support Automation System
 
 **Course:** IBM Agentic AI — VIT May 2026 Batch
-**Author:** GraceCoder25
+**Author:** Mylapalli Manoj
 
 ---
 
